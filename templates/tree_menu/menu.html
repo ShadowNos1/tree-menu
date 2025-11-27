@@ -1,0 +1,6 @@
+﻿{# tree_menu/menu.html  ожидает в контексте 'nodes' (список корневых узлов меню) #}
+<ul class="tree-menu menu-{{ menu_name }}">
+{% for node in nodes %}
+    {% include "tree_menu/node.html" with node=node %}
+{% endfor %}
+</ul>

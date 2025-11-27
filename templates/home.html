@@ -1,0 +1,9 @@
+{% extends "base.html" %}
+{% load draw_menu %}
+{# Основное меню сайта: "main_menu"  отрисовываем с помощью template tag draw_menu #}
+
+{% block content %}
+  <h2>Home</h2>
+  <div>{% draw_menu "main_menu" %}</div>
+  <p>Посетите <a href="/page/about/">/page/about/</a></p>
+{% endblock %}

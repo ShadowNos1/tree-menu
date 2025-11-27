@@ -1,0 +1,19 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <title>Тестирование Древовидного Меню</title>
+  <style>
+    .tree-menu { list-style-type: none; padding-left: 0; }
+    .tree-menu .submenu { list-style-type: none; padding-left: 1rem; }
+    li.menu-item a { text-decoration: none; }
+    li.menu-item.active > a { font-weight: bold; }
+    li.menu-item.expanded > a::after { content: " "; }
+  </style>
+</head>
+<body>
+  <header><h1>Тестирование Древовидного Меню</h1></header>
+  <main>{% block content %}{% endblock %}</main>
+</body>
+</html>
+

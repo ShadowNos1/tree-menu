@@ -1,0 +1,9 @@
+﻿{% extends "base.html" %}
+{% load draw_menu %}
+{# Пример страницы, внутри которой также можно отрисовать меню по имени "main_menu" #}
+
+{% block content %}
+  <h2>Page: {{ slug }}</h2>
+  <div>{% draw_menu "main_menu" %}</div>
+  <p>Slug: {{ slug }}</p>
+{% endblock %}
