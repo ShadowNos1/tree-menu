@@ -15,9 +15,7 @@
 
 Установка и запуск (Windows / PowerShell):
 1. Склонируйте репозиторий и перейдите в папку проекта
-```powershell
-cd "C:\Users\andre\OneDrive\Рабочий стол\tree-menu"
-```
+
 2. Создайте и активируйте виртуальное окружение
 ```powershell
 python -m venv venv
