@@ -68,19 +68,3 @@ python manage.py runserver
 python manage.py test --verbosity 2
 ```
 - Есть тест, который проверяет, что при рендеринге меню используется ровно один запрос к базе, и тест, проверяющий корректное определение активного пункта.
-
-Публикация на GitHub:
-```powershell
-git init
-git add .
-git commit -m "Добавлено приложение tree_menu"
-git branch -M main
-git remote add origin https://github.com/<yourname>/tree-menu.git
-git push -u origin main
-```
-
-Лицензия: MIT
-
-Если хотите — я могу помочь подготовить пакет для публикации (setup/pyproject) или добавить i18n-поддержку (`gettext`) для админки и шаблонов.
-# Tree Menu Demo
-See README for usage.
